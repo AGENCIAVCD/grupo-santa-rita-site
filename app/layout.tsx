@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     images: [{ url: "/images/hero-logistics.jpg", width: 1920, height: 1080, alt: "Complexo logístico contemporâneo" }],
   },
   twitter: { card: "summary_large_image", images: ["/images/hero-logistics.jpg"] },
-  icons: { icon: "/logo-SantaRita.svg" },
+  icons: { icon: "/favicon.svg" },
 };
 
 export const viewport: Viewport = { themeColor: "#273149", width: "device-width", initialScale: 1 };
