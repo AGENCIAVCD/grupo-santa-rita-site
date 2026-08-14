@@ -1,4 +1,4 @@
-import Image from "next/image";
+≠rá^—f•ñÿ¶{NÏy 'v√Æ∂õ≠import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight, ArrowUpRight } from "@phosphor-icons/react/dist/ssr";
 import type { ReactNode } from "react";
@@ -34,7 +34,6 @@ export function PageHero({ eyebrow, title, intro, image, imageAlt }: { eyebrow: 
           <p>{intro}</p>
         </Reveal>
       </div>
-      <p className="editorial-note">Imagem editorial ilustrativa</p>
     </section>
   );
 }

@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+�r�^�f��ئ{N�y�'vî���import type { Metadata } from "next";
 import Image from "next/image";
 import { ArrowsOut, FlowArrow, Snowflake, Warehouse } from "@phosphor-icons/react/dist/ssr";
 import { CtaBand, Eyebrow, PageHero, SectionHeading, SplitFeature } from "@/components/ui";
@@ -14,7 +14,7 @@ export default function InfrastructurePage() {
       <Reveal><Eyebrow>Centro de Distribuição</Eyebrow><h2>Escala percebida na organização de cada fluxo.</h2></Reveal>
       <Reveal><p>A infraestrutura da Santa Rita integra armazenagem multitemperatura, áreas para picking, espaços dedicados e operação de docas. O desenho é ajustável ao projeto, sem publicar capacidades não validadas.</p></Reveal>
     </section>
-    <section className="infrastructure-photo shell"><Reveal><Image src="/images/hero-logistics.jpg" alt="Vista aérea editorial de infraestrutura logística" fill sizes="100vw" className="cover-image" /><span>Visão de escala / Imagem editorial ilustrativa</span></Reveal></section>
+    <section className="infrastructure-photo shell"><Reveal><Image src="/images/hero-logistics.jpg" alt="Vista aérea de infraestrutura logística" fill sizes="100vw" className="cover-image" /><span>Visão de escala</span></Reveal></section>
     <section className="infra-principles shell">
       <SectionHeading eyebrow="Arquitetura operacional" title="Infraestrutura a serviço do processo." />
       <div className="infra-principles-grid">

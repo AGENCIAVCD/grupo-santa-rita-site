@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+�r�^�f��ئ{Nly�'vî���import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowDown, ArrowRight, ArrowUpRight, Buildings, MapPin, Snowflake, Truck, Warehouse } from "@phosphor-icons/react/dist/ssr";
@@ -28,9 +28,7 @@ export default function Home() {
             </div>
           </Reveal>
         </div>
-        <div className="hero-meta"><span>Jandira · Grande São Paulo</span><span>Operação · Estrutura · Eficiência</span></div>
         <a href="#operacao" className="scroll-cue" aria-label="Ir para o conteúdo"><ArrowDown size={18} /><span>Explore</span></a>
-        <p className="editorial-note">Imagem editorial ilustrativa</p>
       </section>
 
       <section id="operacao" className="intro-section shell">
@@ -48,7 +46,7 @@ export default function Home() {
             {solutions.map((solution, index) => (
               <Reveal key={solution.href} className="solution-card" delay={index * 0.08}>
                 <Link href={solution.href} aria-label={`Conhecer ${solution.title}`}>
-                  <Image src={solution.image} alt="Imagem editorial ilustrativa de operação logística" fill sizes="(max-width: 800px) 100vw, 33vw" className="cover-image" />
+                  <Image src={solution.image} alt="Operação logística em centro de distribuição" fill sizes="(max-width: 800px) 100vw, 33vw" className="cover-image" />
                   <div className="solution-overlay" />
                   <span className="solution-number">0{index + 1}</span>
                   <div className="solution-copy"><p>{solution.eyebrow}</p><h3>{solution.title}</h3><span>Conheça a solução <ArrowUpRight size={18} /></span></div>

@@ -1,4 +1,4 @@
-import Image from "next/image";
+­r‡^Ñf¥–Ø¦{N¬yÊ'vÃ®¶›­import Image from "next/image";
 import Link from "next/link";
 import { ArrowUpRight, EnvelopeSimple, MapPin, Phone } from "@phosphor-icons/react/dist/ssr";
 import { navigation, site, solutions } from "@/lib/site-data";
@@ -35,7 +35,6 @@ export function Footer() {
       </div>
       <div className="shell footer-bottom">
         <p>Â© {new Date().getFullYear()} Grupo Santa Rita. Todos os direitos reservados.</p>
-        <p>Jandira Â· Grande SÃ£o Paulo</p>
       </div>
     </footer>
   );
