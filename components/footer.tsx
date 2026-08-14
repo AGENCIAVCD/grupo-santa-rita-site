@@ -1,4 +1,4 @@
-≠rá^—f•ñÿ¶{N¨y 'v√Æ∂õ≠import Image from "next/image";
+import Image from "next/image";
 import Link from "next/link";
 import { ArrowUpRight, EnvelopeSimple, MapPin, Phone } from "@phosphor-icons/react/dist/ssr";
 import { navigation, site, solutions } from "@/lib/site-data";

@@ -1,4 +1,4 @@
-≠rá^—f•ñÿ¶{NÏy 'v√Æ∂õ≠import type { Metadata } from "next";
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowUpRight } from "@phosphor-icons/react/dist/ssr";

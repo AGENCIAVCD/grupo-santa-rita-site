@@ -1,4 +1,4 @@
-≠rá^—f•ñÿ¶{N¨y 'v√Æ∂õ≠import type { Metadata } from "next";
+import type { Metadata } from "next";
 import Image from "next/image";
 import { ArrowsOut, FlowArrow, Snowflake, Warehouse } from "@phosphor-icons/react/dist/ssr";
 import { CtaBand, Eyebrow, PageHero, SectionHeading, SplitFeature } from "@/components/ui";

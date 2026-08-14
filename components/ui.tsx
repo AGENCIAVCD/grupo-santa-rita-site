@@ -1,4 +1,4 @@
-≠rá^—f•ñÿ¶{NÏy 'v√Æ∂õ≠import Image from "next/image";
+import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight, ArrowUpRight } from "@phosphor-icons/react/dist/ssr";
 import type { ReactNode } from "react";

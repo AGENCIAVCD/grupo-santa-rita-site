@@ -1,4 +1,4 @@
-≠rá^—f•ñÿ¶{Nly 'v√Æ∂õ≠import type { Metadata } from "next";
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowDown, ArrowRight, ArrowUpRight, Buildings, MapPin, Snowflake, Truck, Warehouse } from "@phosphor-icons/react/dist/ssr";
