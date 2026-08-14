@@ -65,7 +65,8 @@ button:focus-visible, a:focus-visible, input:focus-visible, textarea:focus-visib
 .editorial-note { position: absolute; z-index: 3; right: 22px; bottom: 11px; margin: 0; color: rgba(255,255,255,.52); font: 9px var(--font-mono); text-transform: uppercase; letter-spacing: .08em; }
 
 .intro-section { display: grid; grid-template-columns: .65fr 2fr; gap: 7vw; padding-block: clamp(100px, 12vw, 180px); }
-.intro-index { display: flex; gap: 20px; align-items: flex-start; padding-top: 8px; border-top: 1px solid var(--line); }
+.intro-index { position: relative; isolation: isolate; overflow: hidden; display: flex; gap: 20px; align-items: flex-start; padding-top: 8px; border-top: 1px solid var(--line); }
+.intro-index::before { content: ""; position: absolute; z-index: -1; width: 520px; height: 300px; left: -205px; top: 52px; background: url('/logo-SantaRita.svg') left center / contain no-repeat; opacity: .055; pointer-events: none; }
 .intro-index span { color: var(--green); font: 12px var(--font-mono); }
 .intro-index p { margin: 0; color: var(--gray); font-size: 13px; }
 .intro-statement h2 { max-width: 1050px; margin: 0; font-size: clamp(42px, 5.8vw, 88px); line-height: 1.03; letter-spacing: -.055em; font-weight: 550; }
@@ -399,4 +400,3 @@ button:focus-visible, a:focus-visible, input:focus-visible, textarea:focus-visib
   html { scroll-behavior: auto; }
   *, *::before, *::after { animation-duration: .01ms!important; animation-iteration-count: 1!important; transition-duration: .01ms!important; }
 }
-
