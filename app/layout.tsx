@@ -25,9 +25,9 @@ export const metadata: Metadata = {
     siteName: site.name,
     locale: "pt_BR",
     type: "website",
-    images: [{ url: "/images/hero-logistics.png", width: 1920, height: 1080, alt: "Complexo logístico contemporâneo" }],
+    images: [{ url: "/images/hero-logistics.jpg", width: 1920, height: 1080, alt: "Complexo logístico contemporâneo" }],
   },
-  twitter: { card: "summary_large_image", images: ["/images/hero-logistics.png"] },
+  twitter: { card: "summary_large_image", images: ["/images/hero-logistics.jpg"] },
   icons: { icon: "/logo-SantaRita.svg" },
 };
 

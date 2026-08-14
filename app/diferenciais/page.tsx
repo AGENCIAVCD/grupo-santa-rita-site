@@ -9,7 +9,7 @@ export const metadata: Metadata = pageMetadata("Diferenciais", "Projetos operaci
 
 export default function DifferentialsPage() {
   return <>
-    <PageHero eyebrow="Diferenciais" title="A infraestrutura se adapta à sua operação. Não o contrário." intro="Projetos personalizados, gestão próxima e experiência operacional para transformar particularidades em processos eficientes." image="/images/operations-team.png" imageAlt="Equipe editorial de logística analisando uma operação" />
+    <PageHero eyebrow="Diferenciais" title="A infraestrutura se adapta à sua operação. Não o contrário." intro="Projetos personalizados, gestão próxima e experiência operacional para transformar particularidades em processos eficientes." image="/images/operations-team.jpg" imageAlt="Equipe editorial de logística analisando uma operação" />
     <section className="page-intro shell"><SectionHeading eyebrow="Nosso jeito de operar" title="Proximidade para entender. Engenharia operacional para resolver." text="A personalização não é uma camada adicional. Ela é o ponto de partida para definir espaço, pessoas, processos e informação." /></section>
     <section className="differential-grid shell">
       {differentiators.map((item,index)=><Reveal className="differential-card" key={item.title} delay={index*.06}><span>0{index+1}</span><h2>{item.title}</h2><p>{item.text}</p></Reveal>)}
@@ -19,7 +19,7 @@ export default function DifferentialsPage() {
         <div className="management-grid">{[[<UsersThree key="i"/>,"Equipe especializada","Vivência em logística e transporte aplicada à rotina."],[<ShieldCheck key="i"/>,"Qualidade e perdas","Times voltados à qualidade, prevenção e inventários."],[<ChartLineUp key="i"/>,"Gestão visível","Relatórios operacionais e análise de performance."],[<Handshake key="i"/>,"Atendimento humano","Contato próximo, personalizado e orientado à parceria."]].map(([icon,title,text],i)=><Reveal key={String(title)} delay={i*.06}><span>{icon}</span><h3>{title}</h3><p>{text}</p></Reveal>)}</div>
       </div>
     </section>
-    <SplitFeature image="/images/cold-storage.png" imageAlt="Operação editorial de armazenagem" eyebrow="Melhoria contínua" title="Controle que se transforma em aprendizado operacional." text="Gestão de estoque, inventários, relatórios, monitoramento e integração de sistemas criam a base para acompanhar a operação e identificar oportunidades de evolução." />
+    <SplitFeature image="/images/cold-storage.jpg" imageAlt="Operação editorial de armazenagem" eyebrow="Melhoria contínua" title="Controle que se transforma em aprendizado operacional." text="Gestão de estoque, inventários, relatórios, monitoramento e integração de sistemas criam a base para acompanhar a operação e identificar oportunidades de evolução." />
     <CtaBand />
   </>;
 }

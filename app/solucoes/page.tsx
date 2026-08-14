@@ -13,7 +13,7 @@ const featureSets = [storageFeatures, distributionFeatures, extraServices];
 
 export default function SolutionsPage() {
   return <>
-    <PageHero eyebrow="Soluções" title="Logística que acompanha a complexidade do seu negócio." intro="Uma combinação flexível de armazenagem, movimentação e serviços para construir o fluxo mais adequado a cada operação." image="/images/distribution.png" imageAlt="Operação editorial de distribuição em centro logístico" />
+    <PageHero eyebrow="Soluções" title="Logística que acompanha a complexidade do seu negócio." intro="Uma combinação flexível de armazenagem, movimentação e serviços para construir o fluxo mais adequado a cada operação." image="/images/distribution.jpg" imageAlt="Operação editorial de distribuição em centro logístico" />
     <section className="page-intro shell"><SectionHeading eyebrow="Capacidades conectadas" title="Mais do que etapas isoladas. Uma operação pensada de ponta a ponta." text="A Santa Rita integra estrutura, equipe e informação para criar respostas operacionais coerentes com o produto, o canal e a expectativa do cliente." /></section>
     <section className="solution-detail-list shell">
       {solutions.map((solution, index) => <Reveal className="solution-detail" key={solution.href}>

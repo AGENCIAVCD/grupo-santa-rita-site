@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <>
       <section className="home-hero">
-        <Image src="/images/hero-logistics.png" alt="Vista aérea editorial de um complexo logístico de grande escala" fill priority sizes="100vw" className="cover-image" />
+        <Image src="/images/hero-logistics.jpg" alt="Vista aérea editorial de um complexo logístico de grande escala" fill priority sizes="100vw" className="cover-image" />
         <div className="home-hero-overlay" />
         <div className="shell home-hero-content">
           <Reveal>
@@ -71,7 +71,7 @@ export default function Home() {
         </div>
       </section>
 
-      <SplitFeature image="/images/operations-team.png" imageAlt="Equipe analisando uma operação logística em conjunto" eyebrow="Projetos customizados" title="A sua operação define o projeto." text="A Santa Rita adapta espaços, processos e recursos à realidade do cliente. O resultado é uma solução que nasce das restrições, metas e particularidades de cada cadeia.">
+      <SplitFeature image="/images/operations-team.jpg" imageAlt="Equipe analisando uma operação logística em conjunto" eyebrow="Projetos customizados" title="A sua operação define o projeto." text="A Santa Rita adapta espaços, processos e recursos à realidade do cliente. O resultado é uma solução que nasce das restrições, metas e particularidades de cada cadeia.">
         <TextLink href="/diferenciais">Entenda nosso jeito de operar</TextLink>
       </SplitFeature>
 

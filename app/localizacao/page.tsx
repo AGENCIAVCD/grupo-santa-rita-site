@@ -10,7 +10,7 @@ export const metadata: Metadata = pageMetadata("Localização", "Centro de Distr
 
 export default function LocationPage() {
   return <>
-    <PageHero eyebrow="Localização" title="No eixo estratégico da Grande São Paulo." intro="A partir de Jandira, a Santa Rita está posicionada para conectar operações à principal região econômica do país." image="/images/hero-logistics.png" imageAlt="Vista aérea editorial de um complexo logístico" />
+    <PageHero eyebrow="Localização" title="No eixo estratégico da Grande São Paulo." intro="A partir de Jandira, a Santa Rita está posicionada para conectar operações à principal região econômica do país." image="/images/hero-logistics.jpg" imageAlt="Vista aérea editorial de um complexo logístico" />
     <section className="page-intro shell"><SectionHeading eyebrow="Jandira / SP" title="Localização que aproxima mercados, vias e operações." text="A unidade está no Condomínio Polo Industrial Jandira 2, inserida na malha urbana e rodoviária da Grande São Paulo." /></section>
     <section className="real-map shell">
       <Reveal className="map-frame"><iframe src={site.mapEmbed} title="Mapa da localização do Grupo Santa Rita em Jandira" loading="lazy" referrerPolicy="no-referrer-when-downgrade" /></Reveal>

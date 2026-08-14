@@ -27,21 +27,21 @@ export const solutions = [
     href: "/solucoes/armazenagem",
     eyebrow: "Ambientes dedicados",
     description: "Congelados, resfriados, climatizados e secos com processos que respeitam a particularidade de cada produto.",
-    image: "/images/cold-storage.png",
+    image: "/images/cold-storage.jpg",
   },
   {
     title: "Distribuição",
     href: "/solucoes/distribuicao",
     eyebrow: "Fluxo sob controle",
     description: "Cargas fracionadas e fechadas, agendamento, monitoramento e análise de performance em uma operação coordenada.",
-    image: "/images/distribution.png",
+    image: "/images/distribution.jpg",
   },
   {
     title: "Serviços e atividades extras",
     href: "/solucoes/servicos-extras",
     eyebrow: "Operação ampliada",
     description: "Palletização, kits, etiquetagem, coletas, integração de sistemas e consultoria para reduzir etapas e ganhar eficiência.",
-    image: "/images/operations-team.png",
+    image: "/images/operations-team.jpg",
   },
 ];
 
