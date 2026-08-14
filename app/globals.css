@@ -66,9 +66,9 @@ button:focus-visible, a:focus-visible, input:focus-visible, textarea:focus-visib
 
 .intro-section { display: grid; grid-template-columns: .65fr 2fr; gap: 7vw; padding-block: clamp(100px, 12vw, 180px); }
 .intro-index { position: relative; isolation: isolate; overflow: hidden; display: flex; gap: 20px; align-items: flex-start; padding-top: 8px; border-top: 1px solid var(--line); }
-.intro-index::before { content: ""; position: absolute; z-index: 0; width: 560px; height: 520px; left: -205px; top: 28px; background: url('/Union.png') left center / contain no-repeat; opacity: .10; pointer-events: none; }
-.intro-index span { position: relative; z-index: 1; color: var(--green); font: 12px var(--font-mono); }
-.intro-index p { position: relative; z-index: 1; margin: 0; color: var(--gray); font-size: 13px; }
+.intro-index::before { content: ""; position: absolute; z-index: 2; width: 560px; height: 520px; left: -205px; top: 28px; background: url('/Union.png') left center / contain no-repeat; opacity: .10; pointer-events: none; }
+.intro-index span { position: relative; z-index: 3; color: var(--green); font: 12px var(--font-mono); }
+.intro-index p { position: relative; z-index: 3; margin: 0; color: var(--gray); font-size: 13px; }
 .intro-statement h2 { max-width: 1050px; margin: 0; font-size: clamp(42px, 5.8vw, 88px); line-height: 1.03; letter-spacing: -.055em; font-weight: 550; }
 .intro-statement h2 span { color: var(--green); }
 .intro-statement p { max-width: 700px; margin: 36px 0 0 auto; color: var(--gray); font-size: 18px; line-height: 1.75; }
