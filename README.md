@@ -1,6 +1,6 @@
 # Grupo Santa Rita — Site Institucional
 
-Novo site multipage do Grupo Santa Rita, desenvolvido para posicionar a empresa como uma operaÃ§Ã£o logÃ­stica robusta, flexÃ­vel e preparada para projetos de alta complexidade.
+Novo site multipage do Grupo Santa Rita, desenvolvido para posicionar a empresa como uma operação logística robusta, flexível e preparada para projetos de alta complexidade.
 
 ## Stack
 
@@ -11,9 +11,9 @@ Novo site multipage do Grupo Santa Rita, desenvolvido para posicionar a empresa 
 - Phosphor Icons
 - Vercel
 
-> O projeto usa `16.3.0-canary.102` porque, em 14/08/2026, a linha 16.3 ainda estava disponÃ­vel como prÃ©-lanÃ§amento oficial. Troque para a 16.3 estÃ¡vel assim que ela estiver publicada.
+> O projeto usa `16.3.0-canary.102` porque, em 14/08/2026, a linha 16.3 ainda estava disponível como pré-lançamento oficial. Troque para a 16.3 estável assim que ela estiver publicada.
 
-## InstalaÃ§Ã£o
+## Instalação
 
 ```bash
 pnpm install
@@ -22,7 +22,7 @@ pnpm dev
 
 Abra `http://localhost:3000`.
 
-## ValidaÃ§Ã£o
+## Validação
 
 ```bash
 pnpm lint
@@ -30,9 +30,9 @@ pnpm typecheck
 pnpm build
 ```
 
-## FormulÃ¡rio comercial
+## Formulário comercial
 
-O formulÃ¡rio usa um Route Handler do Next.js e a API da Resend. Inclui validaÃ§Ã£o no cliente e servidor, honeypot, tempo mÃ­nimo de preenchimento e limite bÃ¡sico de requisiÃ§Ãµes por IP.
+O formulário usa um Route Handler do Next.js e a API da Resend. Inclui validação no cliente e servidor, honeypot, tempo mínimo de preenchimento e limite básico de requisições por IP.
 
 Copie `.env.example` para `.env.local` e configure:
 
@@ -41,25 +41,25 @@ Copie `.env.example` para `.env.local` e configure:
 - `CONTACT_FROM_EMAIL`
 - `NEXT_PUBLIC_SITE_URL`
 
-Nenhuma chave Ã© exposta no navegador.
+Nenhuma chave é exposta no navegador.
 
 ## Estrutura
 
 - `app/` — rotas, metadata, sitemap, robots e endpoint de contato
-- `components/` — navegaÃ§Ã£o, animaÃ§Ãµes, componentes editoriais e formulÃ¡rio
+- `components/` — navegação, animações, componentes editoriais e formulário
 - `lib/site-data.ts` — dados institucionais separados da interface
-- `public/images/` — imagens editoriais originais e referÃªncia visual aprovada
+- `public/images/` — imagens editoriais originais e referência visual aprovada
 
-## ConteÃºdo e imagens
+## Conteúdo e imagens
 
-As informaÃ§Ãµes institucionais foram reestruturadas a partir do site anterior e dos materiais fornecidos. NÃ£o foram publicados clientes, certificaÃ§Ãµes, capacidades ou indicadores nÃ£o validados. As imagens geradas sÃ£o tratadas como editoriais ilustrativas, sem representar literalmente uma instalaÃ§Ã£o especÃ­fica.
+As informações institucionais foram reestruturadas a partir do site anterior e dos materiais fornecidos. Não foram publicados clientes, certificações, capacidades ou indicadores não validados. As imagens geradas são tratadas como editoriais ilustrativas, sem representar literalmente uma instalação específica.
 
 ## Deploy na Vercel
 
-1. Importe o repositÃ³rio na Vercel.
+1. Importe o repositório na Vercel.
 2. Confirme o preset Next.js.
-3. Cadastre as variÃ¡veis do formulÃ¡rio.
+3. Cadastre as variáveis do formulário.
 4. Publique a branch `main`.
-5. Aponte o domÃ­nio quando o DNS estiver liberado.
+5. Aponte o domínio quando o DNS estiver liberado.
 
-A branch principal fica preparada para deploy automÃ¡tico a cada push.
+A branch principal fica preparada para deploy automático a cada push.
