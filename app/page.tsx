@@ -19,7 +19,7 @@ export default function Home() {
         <div className="home-hero-overlay" />
         <div className="shell home-hero-content">
           <Reveal>
-            <Eyebrow light>Grupo Santa Rita · Soluções logísticas</Eyebrow>
+            <Eyebrow light>Grupo Santa Rita · 25 anos de mercado</Eyebrow>
             <h1>Estrutura para armazenar.<br /><em>Inteligência para movimentar.</em></h1>
             <p>Operações customizadas, armazenagem multitemperatura e distribuição com a proximidade de quem entende cada detalhe do seu negócio.</p>
             <div className="hero-actions">
