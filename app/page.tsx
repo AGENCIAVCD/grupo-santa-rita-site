@@ -62,8 +62,8 @@ export default function Home() {
           <Reveal className="capability-lead"><Eyebrow light>Uma operação, múltiplas respostas</Eyebrow><h2>Infraestrutura que acompanha a necessidade do cliente.</h2></Reveal>
           {[
             [<Snowflake key="i" />, "Multitemperatura", "Ambientes para congelados, resfriados, climatizados e secos."],
-            [<Warehouse key="i" />, "Armazenagem", "FEFO/FIFO, picking, estoque endereçado e espaços dedicados."],
-            [<Truck key="i" />, "Distribuição", "Cargas fracionadas e fechadas, monitoramento e agendamento."],
+            [<Warehouse key="i" />, "Armazenagem", "Picking, estoque endereçado e espaços dedicados para diferentes temperaturas."],
+            [<Truck key="i" />, "Distribuição", "Veículos com placa eutética para varejo, atacado, food service e franquias."],
             [<Buildings key="i" />, "Projetos customizados", "Processos desenhados para a particularidade de cada operação."],
           ].map(([icon, title, text], index) => <Reveal className="capability-item" key={String(title)} delay={index * .06}><span>{icon}</span><h3>{title}</h3><p>{text}</p></Reveal>)}
         </div>

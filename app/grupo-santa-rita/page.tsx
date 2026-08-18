@@ -8,7 +8,7 @@ export const metadata: Metadata = pageMetadata("Grupo Santa Rita", "Conheça a h
 
 export default function AboutPage() {
   return <>
-    <PageHero eyebrow="Grupo Santa Rita" title="Experiência operacional com a proximidade de quem constrói junto." intro="Uma empresa fundada para oferecer um serviço logístico personalizado, com seriedade, comprometimento e parceria." image="/images/operations-team.jpg" imageAlt="Equipe editorial de operações reunida" />
+    <PageHero eyebrow="Grupo Santa Rita · 25 anos de mercado" title="Experiência operacional com a proximidade de quem constrói junto." intro="Há 25 anos, o Grupo Santa Rita oferece um serviço logístico personalizado, com seriedade, comprometimento e parceria." image="/images/operations-team.jpg" imageAlt="Equipe editorial de operações reunida" />
     <section className="story shell">
       <Reveal className="story-title"><Eyebrow>Nossa história</Eyebrow><h2>Uma origem empreendedora. Uma visão orientada ao cliente.</h2></Reveal>
       <Reveal className="story-copy"><p>A Santa Rita foi fundada pelos irmãos Butori, profissionais com ampla experiência no mercado de logística e transporte, com o objetivo de prestar um serviço personalizado aos seus clientes.</p><p>A empresa passou a se destacar pela seriedade, pelo comprometimento e pela capacidade de construir alternativas operacionais em conjunto, considerando as particularidades de cada negócio.</p><p>Essa essência permanece no centro da Santa Rita: reunir experiência humana, tecnologia, equipamentos e processos para atender necessidades logísticas diversas com proximidade e consistência.</p></Reveal>

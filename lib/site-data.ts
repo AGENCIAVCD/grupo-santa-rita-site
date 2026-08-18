@@ -33,7 +33,7 @@ export const solutions = [
     title: "Distribuição",
     href: "/solucoes/distribuicao",
     eyebrow: "Fluxo sob controle",
-    description: "Cargas fracionadas e fechadas, agendamento, monitoramento e análise de performance em uma operação coordenada.",
+    description: "Veículos com placa eutética, cargas fracionadas e fechadas, agendamento e monitoramento para varejo, atacado, food service e franquias.",
     image: "/images/distribution.jpg",
   },
   {
@@ -46,11 +46,11 @@ export const solutions = [
 ];
 
 export const storageFeatures = [
-  "Congelados", "Resfriados", "Climatizados", "Secos", "FEFO / FIFO", "Picking", "Estoque endereçado", "Espaços operacionais dedicados", "Relatórios personalizados",
+  "Congelados", "Resfriados", "Climatizados", "Secos", "Picking", "Estoque endereçado", "Espaços operacionais dedicados", "Relatórios personalizados",
 ];
 
 export const distributionFeatures = [
-  "Carga fracionada e fechada", "Agendamento de entregas", "Monitoramento de carga", "Análise de performance", "Relatórios de entrega", "Entregas com restrições", "Cross-docking", "Coletas",
+  "Veículos com placa eutética", "Carga fracionada e fechada", "Agendamento de entregas", "Monitoramento de carga", "Análise de performance", "Entregas para varejo, atacado, food service e franquias", "Entregas com restrições", "Cross-docking", "Coletas",
 ];
 
 export const extraServices = [
