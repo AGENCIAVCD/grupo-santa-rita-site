@@ -70,7 +70,7 @@ button:focus-visible, a:focus-visible, input:focus-visible, textarea:focus-visib
 .intro-index p { margin: 0; color: var(--gray); font-size: 13px; }
 .intro-statement h2 { max-width: 1050px; margin: 0; font-size: clamp(42px, 5.8vw, 88px); line-height: 1.03; letter-spacing: -.055em; font-weight: 550; }
 .intro-statement h2 span { color: var(--green); }
-.intro-statement p { max-width: 700px; margin: 36px 0 0 auto; color: var(--gray); font-size: 18px; line-height: 1.75; }
+.intro-statement p { max-width: 700px; margin: 36px 0 0; color: var(--gray); font-size: 18px; line-height: 1.75; }
 
 .solutions-section { padding: 120px 0; background: #e9ede8; }
 .section-heading { max-width: 880px; }

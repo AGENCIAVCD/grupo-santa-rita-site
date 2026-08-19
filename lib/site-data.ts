@@ -6,7 +6,7 @@ export const site = {
   phoneHref: "tel:+5511956804881",
   whatsapp: "https://wa.me/5511956804881?text=Ol%C3%A1%2C%20gostaria%20de%20conversar%20sobre%20uma%20opera%C3%A7%C3%A3o%20log%C3%ADstica.",
   email: "contato@santaritalogistic.com.br",
-  address: "Rua Orlando Motta, 342 — Condomínio Polo Industrial Jandira 2",
+  address: "Polo Industrial Jandira II",
   city: "Jandira — SP",
   postalCode: "06612-260",
   mapsUrl: "https://www.google.com/maps/search/?api=1&query=Rua+Orlando+Motta+342+Jandira+SP+06612-260",
