@@ -87,7 +87,7 @@ export default function Home() {
       <section className="location-teaser">
         <div className="map-pattern" aria-hidden="true"><span className="route route-a" /><span className="route route-b" /><span className="map-pin"><MapPin size={30} weight="fill" /></span></div>
         <div className="shell location-teaser-content">
-          <Reveal><Eyebrow>Localização estratégica</Eyebrow><h2>No ponto certo para conectar sua operação à Grande São Paulo.</h2><p>Em Jandira, no Condomínio Polo Industrial Jandira 2, com acesso à malha viária que movimenta a principal região econômica do país.</p><TextLink href="/localizacao">Ver localização e acessos</TextLink></Reveal>
+          <Reveal><Eyebrow>Localização estratégica</Eyebrow><h2>No ponto certo para conectar sua operação à Grande São Paulo.</h2><TextLink href="/localizacao">Ver localização e acessos</TextLink></Reveal>
           <Reveal className="location-address"><span>SR / HUB OESTE</span><strong>{site.address}</strong><p>{site.city} · {site.postalCode}</p></Reveal>
         </div>
       </section>
