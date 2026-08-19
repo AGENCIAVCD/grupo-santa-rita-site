@@ -6,7 +6,7 @@ import { Reveal } from "@/components/reveal";
 import { site } from "@/lib/site-data";
 import { pageMetadata } from "@/lib/metadata";
 
-export const metadata: Metadata = pageMetadata("Contato", "Fale com a equipe comercial do Grupo Santa Rita sobre sua operação logística.", "/contato");
+export const metadata: Metadata = pageMetadata("Contato", "Fale com a equipe comercial da Santa Rita sobre sua operação logística.", "/contato");
 
 export default function ContactPage() {
   return <section className="contact-page">

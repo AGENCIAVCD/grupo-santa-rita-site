@@ -1,5 +1,5 @@
 export const site = {
-  name: "Grupo Santa Rita",
+  name: "Santa Rita",
   shortName: "Santa Rita",
   url: process.env.NEXT_PUBLIC_SITE_URL || "https://www.santaritalogistic.com.br",
   phone: "(11) 95680-4881",
@@ -17,7 +17,7 @@ export const navigation = [
   { label: "Soluções", href: "/solucoes" },
   { label: "Infraestrutura", href: "/infraestrutura" },
   { label: "Diferenciais", href: "/diferenciais" },
-  { label: "Grupo Santa Rita", href: "/grupo-santa-rita" },
+  { label: "Santa Rita", href: "/grupo-santa-rita" },
   { label: "Localização", href: "/localizacao" },
 ];
 

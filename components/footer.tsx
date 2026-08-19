@@ -9,7 +9,7 @@ export function Footer() {
       <div className="route-line" aria-hidden="true" />
       <div className="shell footer-top">
         <div className="footer-brand">
-          <Image src="/logo-SantaRita.svg" alt="Grupo Santa Rita" width={210} height={59} />
+          <Image src="/logo-SantaRita.svg" alt="Santa Rita" width={210} height={59} />
           <p>Infraestrutura, inteligência operacional e proximidade para operações logísticas de alta complexidade.</p>
         </div>
         <div>
@@ -34,7 +34,7 @@ export function Footer() {
         </div>
       </div>
       <div className="shell footer-bottom">
-        <p>© {new Date().getFullYear()} Grupo Santa Rita. Todos os direitos reservados.</p>
+        <p>© {new Date().getFullYear()} Santa Rita. Todos os direitos reservados.</p>
       </div>
     </footer>
   );

@@ -26,8 +26,8 @@ export function Header() {
   return (
     <header className={`site-header ${scrolled ? "is-scrolled" : ""}`}>
       <div className="shell header-inner">
-        <Link href="/" className="logo-link" aria-label="Grupo Santa Rita — início">
-          <Image src="/logo-SantaRita.svg" alt="Grupo Santa Rita" width={196} height={55} priority />
+        <Link href="/" className="logo-link" aria-label="Santa Rita — início">
+          <Image src="/logo-SantaRita.svg" alt="Santa Rita" width={196} height={55} priority />
         </Link>
 
         <nav className="desktop-nav" aria-label="Navegação principal">

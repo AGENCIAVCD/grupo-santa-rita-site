@@ -8,7 +8,7 @@ import { differentiators, site, solutions } from "@/lib/site-data";
 
 export const metadata: Metadata = {
   title: "Soluções Logísticas",
-  description: "Estrutura para armazenar. Inteligência para movimentar. Conheça as soluções logísticas customizadas do Grupo Santa Rita em Jandira.",
+  description: "Estrutura para armazenar. Inteligência para movimentar. Conheça as soluções logísticas customizadas da Santa Rita em Jandira.",
 };
 
 export default function Home() {
@@ -19,7 +19,7 @@ export default function Home() {
         <div className="home-hero-overlay" />
         <div className="shell home-hero-content">
           <Reveal>
-            <Eyebrow light>Grupo Santa Rita · 25 anos de mercado</Eyebrow>
+            <Eyebrow light>Santa Rita · 25 anos de mercado</Eyebrow>
             <h1>Estrutura para armazenar.<br /><em>Inteligência para movimentar.</em></h1>
             <p>Operações customizadas, armazenagem multitemperatura e distribuição com a proximidade de quem entende cada detalhe do seu negócio.</p>
             <div className="hero-actions">

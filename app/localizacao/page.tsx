@@ -6,14 +6,14 @@ import { Reveal } from "@/components/reveal";
 import { site } from "@/lib/site-data";
 import { pageMetadata } from "@/lib/metadata";
 
-export const metadata: Metadata = pageMetadata("Localização", "Centro de Distribuição do Grupo Santa Rita em Jandira, com posição estratégica na Grande São Paulo.", "/localizacao");
+export const metadata: Metadata = pageMetadata("Localização", "Centro de Distribuição da Santa Rita em Jandira, com posição estratégica na Grande São Paulo.", "/localizacao");
 
 export default function LocationPage() {
   return <>
     <PageHero eyebrow="Localização" title="No eixo estratégico da Grande São Paulo." intro="A partir de Jandira, a Santa Rita está posicionada para conectar operações à principal região econômica do país." image="/images/hero-logistics.jpg" imageAlt="Vista aérea editorial de um complexo logístico" />
     <section className="page-intro shell"><SectionHeading eyebrow="Jandira / SP" title="Localização que aproxima mercados, vias e operações." text="A unidade está no Condomínio Polo Industrial Jandira 2, inserida na malha urbana e rodoviária da Grande São Paulo." /></section>
     <section className="real-map shell">
-      <Reveal className="map-frame"><iframe src={site.mapEmbed} title="Mapa da localização do Grupo Santa Rita em Jandira" loading="lazy" referrerPolicy="no-referrer-when-downgrade" /></Reveal>
+      <Reveal className="map-frame"><iframe src={site.mapEmbed} title="Mapa da localização da Santa Rita em Jandira" loading="lazy" referrerPolicy="no-referrer-when-downgrade" /></Reveal>
       <Reveal className="map-info"><Eyebrow>Centro de Distribuição</Eyebrow><h2>{site.address}</h2><p>{site.city}<br />CEP {site.postalCode}</p><Link href={site.mapsUrl} target="_blank" className="primary-button">Abrir no Google Maps<ArrowUpRight size={18} /></Link></Reveal>
     </section>
     <section className="location-points shell">

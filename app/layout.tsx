@@ -11,7 +11,7 @@ const mono = IBM_Plex_Mono({ subsets: ["latin"], weight: ["400", "500"], variabl
 
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
-  title: { default: "Grupo Santa Rita | Soluções Logísticas", template: "%s | Grupo Santa Rita" },
+  title: { default: "Santa Rita | Soluções Logísticas", template: "%s | Santa Rita" },
   description: "Armazenagem multitemperatura, distribuição e projetos logísticos customizados em Jandira, na Grande São Paulo.",
   applicationName: site.name,
   authors: [{ name: site.name }],
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   category: "Logística",
   alternates: { canonical: site.url },
   openGraph: {
-    title: "Grupo Santa Rita | Estrutura para armazenar. Inteligência para movimentar.",
+    title: "Santa Rita | Estrutura para armazenar. Inteligência para movimentar.",
     description: "Infraestrutura e inteligência operacional para operações logísticas de alta complexidade.",
     url: site.url,
     siteName: site.name,
